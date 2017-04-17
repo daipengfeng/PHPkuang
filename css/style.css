@@ -1,0 +1,149 @@
+body {
+  background-color: #ebebeb;
+}
+.mian-header {
+  background: url(../img/44e1c4e50d55159c65da6a41bc07e.jpg);
+}
+.mian-header .row {
+  text-align: center;
+}
+.mian-header .row h1 {
+  color: #FFFFFF;
+  font-size: 40px;
+  padding-top: 50px;
+  margin-bottom: 60px;
+}
+.mian-header .row .btn-doc {
+  position: relative;
+  bottom: 15px;
+  color: #fff;
+  border: 1px solid #f1362f;
+  background-color: transparent;
+}
+.mian-header .hide {
+  display: none;
+}
+li.nav-current {
+  border-bottom: 2px solid #f4645f;
+  margin-bottom: -2px;
+}
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+  background: #000;
+}
+.navbar {
+  background: #fff;
+}
+.navbar ul {
+  margin-left: 150px;
+}
+.navbar ul li a {
+  font-size: 15px;
+  color: #000;
+}
+.container > .navbar-header {
+  text-align: center;
+}
+.main {
+  margin-top: 50px;
+}
+.main img {
+  border: 0;
+  width: 100%;
+}
+.main .post {
+  padding: 35px;
+  background: #fff;
+}
+.main .post h1 {
+  text-align: center;
+}
+.main .post h1 a {
+  color: #000;
+  font-size: 28px;
+  line-height: 12px;
+  text-decoration: none;
+}
+.main .post .kuai {
+  width: 100%;
+  height: 100px;
+  background: #fff;
+}
+.main .post .post-meta {
+  text-align: center;
+}
+.main .post .post-meta span a {
+  color: #f4645f;
+}
+.main .post .featured-media img {
+  margin-top: 20px;
+}
+.main .post .post-content p {
+  font-size: 18px;
+  margin-top: 30px;
+}
+.main .post .post-permalink a {
+  color: #fff;
+  background: #f4645f;
+}
+.widget {
+  background: #ffffff;
+  padding: 21px 30px;
+  margin-bottom: 35px;
+}
+.widget .title {
+  margin-top: 0;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #ebebeb;
+  margin-bottom: 21px;
+  position: relative;
+}
+.xiazai a {
+  color: #fff;
+  background: #f4645f;
+}
+.widget .tag-cloud a {
+  border: 1px solid #ebebeb;
+  padding: 2px 7px;
+  color: #959595;
+  line-height: 1.5em;
+  display: inline-block;
+  margin: 0 7px 7px 0;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+@media all and (min-width: 768px) {
+  .col-sm-12 {
+    width: 100%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .col-lg-8 {
+    width: 66.66666667%;
+  }
+}
+@media all and (max-width: 767px) {
+  .btn-doc {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  .navbar {
+    background: #fff;
+  }
+  .navbar ul {
+    margin-left: 0px;
+  }
+  .navbar ul li a {
+    color: #000;
+  }
+}
